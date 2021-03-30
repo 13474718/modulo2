@@ -17,7 +17,7 @@ body{
     margin: 1%;
     box-sizing:(border-box);
   }
-  @media screen and (max-width:640px)
+    @media screen and (max-width:640px)
     {.block {
       background-color: blue;
       width: 47.9%;
@@ -31,9 +31,9 @@ body{
         width: 98%;
         background-color: darkgreen;
         clear: both;
-      }
+      } 
     @media screen and (max-width:320px)
       {.block{
         width: 98%;
       } }
-  }
+  } 
