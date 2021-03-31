@@ -9,6 +9,22 @@ body{
     height: 100%;
     overflow: hidden;
   }
+  h3{
+      border: 1px solid;
+      margin: 0px;
+      width: 70px;
+      float:right;
+      text-align: center;
+  }
+  h3.uno{
+      background-color: rgb(184, 116, 53);
+  }
+  h3.dos{
+    background-color: rgb(216, 54, 54);
+}
+h3.tres{
+    background-color: rgb(226, 238, 160);
+}
   .block{
     background-color: steelblue;
     width: 31.33%;
@@ -16,7 +32,9 @@ body{
     float: left;
     margin: 1%;
     box-sizing:(border-box);
+
   }
+
     @media screen and (max-width:640px)
     {.block {
       background-color: blue;
