@@ -37,22 +37,9 @@ h3.tres{
   }
 
     @media screen and (max-width:640px)
-    {.block {
+    {
+      .block {
       background-color: blue;
-      width: 47.9%;
-    }
-      :first-child{
-        width: 98%;
-        background-color: red;
-        clear: both;
-      }
-      :last-child{
-        width: 98%;
-        background-color: darkgreen;
-        clear: both;
-      } 
-    @media screen and (max-width:320px)
-      {.block{
-        width: 98%;
-      } }
-  } 
+      width: 96.9%;    
+     } 
+   }
